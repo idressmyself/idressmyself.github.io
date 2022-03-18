@@ -1,0 +1,84 @@
+thead tr th,
+tbody tr td {
+    min-width: 2em;
+    word-break: break-word;
+}
+
+thead tr th:first-child,
+tbody tr td:first-child {
+    width: 13em;
+    min-width: 13em;
+    max-width: 13em;
+    word-break: break-word;
+}
+
+tbody tr:first-child td:nth-child(2) {
+    width: 13em;
+    min-width: 13em;
+    max-width: 13em;
+    word-break: break-word;
+}
+
+tbody tr td:first-child {
+    vertical-align: top;
+}
+
+tbody tr td:last-child {
+    font-style: italic;
+    text-align: center;
+}
+
+table.stockTable {
+    /* width: 100%; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 85%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.stockTable td,
+table.stockTable th {
+    padding: 5px 5px;
+}
+
+table.stockTable thead {
+    background: #000000;
+    /* background: -moz-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: -webkit-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: linear-gradient(to bottom, #404040 0%, #191919 66%, #000000 100%); */
+}
+
+table.stockTable thead th {
+    font-size: 100%;
+    font-weight: bold;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+table.stockTable tbody tr:nth-child(n+2):hover,
+tbody tr:first-child:hover td:nth-child(n+2) {
+    background-color: #f1f1f1;
+}
+
+#myInput {
+    background-image: url('icons/searchicon.png');
+    /* Add a search icon to input */
+    background-position: 10px 12px;
+    /* Position the search icon */
+    background-repeat: no-repeat;
+    /* Do not repeat the icon image */
+    width: 35em;
+    /* Full-width */
+    font-size: 16px;
+    /* Increase font-size */
+    padding: 12px 20px 12px 40px;
+    /* Add some padding */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    margin-bottom: 12px;
+    /* Add some space below the input */
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
